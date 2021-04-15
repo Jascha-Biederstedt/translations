@@ -16,6 +16,7 @@ class App extends React.Component {
         <div>
           Select a language:
           <i
+            style={{ marginLeft: '10px' }}
             className="flag us"
             onClick={() => this.onLanguageChange('english', 'blue')}
           />
